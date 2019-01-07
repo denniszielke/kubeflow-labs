@@ -27,6 +27,7 @@ For more general info on Kubeflow, head to the repo's [README](https://github.co
 Kubeflow uses [`ksonnet`](https://github.com/ksonnet/ksonnet) templates as a way to package and deploy the different components.  
 
 > ksonnet simplifies defining an application configuration, updating the configuration over time, and specializing it for different clusters and environments. 
+In case you see `403 API rate limit` errors you can have ks use your personal GitHub access token which makes the error go away: https://github.com/ksonnet/ksonnet/blob/master/docs/troubleshooting.md 
 
 First, install ksonnet version [0.9.2](https://ksonnet.io/#get-started).
 
